@@ -3,6 +3,11 @@ INSERT INTO `autor` VALUES
 (2,'Hiro Mashima','1977-05-03'),
 (3,'Karuho Shiina','1975-10-23');
 
+INSERT INTO `manga` VALUES 
+(1,'Fairy Tail','2006-08-02'),
+(2,'Naruto Classico','2000-03-03'),
+(3,'Kimi ni Todoke','2007-11-01');
+
 INSERT INTO `autor_manga` VALUES 
 (1,1),
 (2,1),
@@ -29,11 +34,6 @@ INSERT INTO `categoria_manga` VALUES
 (1,1),
 (2,1),
 (1,2);
-
-INSERT INTO `mangas` VALUES 
-(1,'Fairy Tail','2006-08-02'),
-(2,'Naruto Classico','2000-03-03'),
-(3,'Kimi ni Todoke','2007-11-01');
 
 INSERT INTO `pagina` VALUES 
 (1,1,_binary 'data:image/png;base64,R0lGODlhDAAMAKIFAF5LAP/zxAAAANyuAP/gaP///wAAAAAAACH5BAEAAAUALAAAAAAMAAwAAAMlWLPcGjDKFYi9lxKBOaGcF35DhWHamZUW0K4mAbiwWtuf0uxFAgA7'),
